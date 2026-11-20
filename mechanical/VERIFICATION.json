@@ -1,0 +1,99 @@
+{
+  "units": "mm",
+  "revision": "V1 prototype, not validated physical fit",
+  "external_closed_mm": [
+    120,
+    150,
+    36
+  ],
+  "pcb_mm": [
+    100,
+    80,
+    1.6
+  ],
+  "pcb_standoff_centres_mm": [
+    [
+      -46.49987999999995,
+      3.9999719999999854
+    ],
+    [
+      45.99980800000006,
+      7.999963999999995
+    ],
+    [
+      -46.49987999999995,
+      47.499757999999986
+    ],
+    [
+      45.99980800000006,
+      60.99985800000002
+    ]
+  ],
+  "lid_screw_centres_mm": [
+    [
+      -54.5,
+      -60
+    ],
+    [
+      -54.5,
+      60
+    ],
+    [
+      54.5,
+      -60
+    ],
+    [
+      54.5,
+      60
+    ]
+  ],
+  "checks": {
+    "BASE": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "mesh_bodies": 1,
+      "bounds_mm": [
+        120.0,
+        150.0,
+        33.0
+      ],
+      "volume_mm3": 89478.74932406087,
+      "solid_PLA_mass_g_at_1_24": 110.95364916183549
+    },
+    "LID": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "mesh_bodies": 1,
+      "bounds_mm": [
+        120.0,
+        150.0,
+        3.0
+      ],
+      "volume_mm3": 49595.11954786972,
+      "solid_PLA_mass_g_at_1_24": 61.49794823935845
+    },
+    "SCREW_FIT_COUPON": {
+      "cad_valid": true,
+      "cad_solids": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "mesh_bodies": 1,
+      "bounds_mm": [
+        30.0,
+        18.0,
+        2.0
+      ],
+      "volume_mm3": 1035.164825637168,
+      "solid_PLA_mass_g_at_1_24": 1.2836043837900883
+    }
+  },
+  "nominal_bare_pcb_intersection_mm3": 0.0,
+  "three_mf_reimport": {
+    "objects": 2,
+    "all_watertight": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "firmware": "gatepass-r1-1.0.0",
+  "board": "ORIGINAL R1 fixed_v3 2026-10-24 ESP32-S3-WROOM-1-N8R2",
+  "panel": "ILI9341 SPI 2.4 inch 240x320 user-confirmed L0297",
+  "reader": "PN532 SPI user-confirmed",
+  "faceRecognition": false,
+  "preview": "on-demand JPEG via existing authenticated preview API",
+  "builds": {
+    "gatepass-r1": "PASS",
+    "gatepass-r1-bench": "PASS"
+  },
+  "pinmap32Signals": "PASS",
+  "gpioCollisions": 0,
+  "usb19_20Reserved": true,
+  "firmwarePolicyHostTests": "PASS",
+  "firmwareQrRoundtrip": "PASS macOS Vision decoded exact firmware-generated QR test payload",
+  "webTypecheck": "PASS",
+  "webTests": {
+    "passed": 14,
+    "liveDatabase": false
+  },
+  "webBuild": "PASS with existing Next.js security advisory",
+  "hardwareFlash": "NOT_RUN",
+  "physicalHardware": "NOT_TESTED",
+  "cloudDatabaseChanges": "NONE",
+  "webDeployment": "NOT_DEPLOYED_THIS_TURN",
+  "actuationDefaultBackend": "DISABLED, requires explicit GATEPASS_R1_ACTUATION_ENABLED=true after bench checks",
+  "sourceEditTimeBangkok": "2026-11-19T23:14:01.841825+07:00",
+  "mergedImageSegments": "PASS app at 0x10000 and partitions at 0x8000 exactly match both build outputs",
+  "guideBrowser": "PASS file:// desktop 1440x1000 and mobile 390x844, connector focus controls"
+}

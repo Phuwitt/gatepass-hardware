@@ -1,0 +1,200 @@
+{
+  "pinmap_checks": "PASS",
+  "signals": 32,
+  "no_gpio_collisions": true,
+  "usb_gpio19_20_reserved": true,
+  "mapping": [
+    {
+      "net": "CAM_D0",
+      "module_pad": 4,
+      "gpio": 4,
+      "constant": "camD0"
+    },
+    {
+      "net": "CAM_D1",
+      "module_pad": 5,
+      "gpio": 5,
+      "constant": "camD1"
+    },
+    {
+      "net": "CAM_D2",
+      "module_pad": 6,
+      "gpio": 6,
+      "constant": "camD2"
+    },
+    {
+      "net": "CAM_D3",
+      "module_pad": 7,
+      "gpio": 7,
+      "constant": "camD3"
+    },
+    {
+      "net": "CAM_D4",
+      "module_pad": 8,
+      "gpio": 15,
+      "constant": "camD4"
+    },
+    {
+      "net": "CAM_D5",
+      "module_pad": 9,
+      "gpio": 16,
+      "constant": "camD5"
+    },
+    {
+      "net": "CAM_D6",
+      "module_pad": 10,
+      "gpio": 17,
+      "constant": "camD6"
+    },
+    {
+      "net": "CAM_D7",
+      "module_pad": 11,
+      "gpio": 18,
+      "constant": "camD7"
+    },
+    {
+      "net": "CAM_XCLK_DRV",
+      "module_pad": 12,
+      "gpio": 8,
+      "constant": "camXclk"
+    },
+    {
+      "net": "LED_G_CMD",
+      "module_pad": 16,
+      "gpio": 46,
+      "constant": "ledG"
+    },
+    {
+      "net": "CAM_PCLK",
+      "module_pad": 17,
+      "gpio": 9,
+      "constant": "camPclk"
+    },
+    {
+      "net": "CAM_VSYNC",
+      "module_pad": 18,
+      "gpio": 10,
+      "constant": "camVsync"
+    },
+    {
+      "net": "CAM_HREF",
+      "module_pad": 19,
+      "gpio": 11,
+      "constant": "camHref"
+    },
+    {
+      "net": "I2C_SDA",
+      "module_pad": 20,
+      "gpio": 12,
+      "constant": "camSda"
+    },
+    {
+      "net": "I2C_SCL",
+      "module_pad": 21,
+      "gpio": 13,
+      "constant": "camScl"
+    },
+    {
+      "net": "LCD_SCK_DRV",
+      "module_pad": 22,
+      "gpio": 14,
+      "constant": "lcdSck"
+    },
+    {
+      "net": "LCD_MOSI_DRV",
+      "module_pad": 23,
+      "gpio": 21,
+      "constant": "lcdMosi"
+    },
+    {
+      "net": "LCD_CS_N",
+      "module_pad": 24,
+      "gpio": 47,
+      "constant": "lcdCs"
+    },
+    {
+      "net": "LCD_DC",
+      "module_pad": 25,
+      "gpio": 48,
+      "constant": "lcdDc"
+    },
+    {
+      "net": "LED_R_CMD",
+      "module_pad": 26,
+      "gpio": 45,
+      "constant": "ledR"
+    },
+    {
+      "net": "QR_SENSE_N",
+      "module_pad": 28,
+      "gpio": 35,
+      "constant": "qrButton"
+    },
+    {
+      "net": "TAMPER_SENSE_N",
+      "module_pad": 29,
+      "gpio": 36,
+      "constant": "tamper"
+    },
+    {
+      "net": "LCD_BL_CMD",
+      "module_pad": 30,
+      "gpio": 37,
+      "constant": "lcdBl"
+    },
+    {
+      "net": "NFC_SCK_DRV",
+      "module_pad": 31,
+      "gpio": 38,
+      "constant": "nfcSck"
+    },
+    {
+      "net": "NFC_MOSI_DRV",
+      "module_pad": 32,
+      "gpio": 39,
+      "constant": "nfcMosi"
+    },
+    {
+      "net": "NFC_MISO",
+      "module_pad": 33,
+      "gpio": 40,
+      "constant": "nfcMiso"
+    },
+    {
+      "net": "DOOR_SENSE_N",
+      "module_pad": 34,
+      "gpio": 41,
+      "constant": "door"
+    },
+    {
+      "net": "REX_SENSE_N",
+      "module_pad": 35,
+      "gpio": 42,
+      "constant": "rex"
+    },
+    {
+      "net": "LED_B_CMD",
+      "module_pad": 36,
+      "gpio": 44,
+      "constant": "ledB"
+    },
+    {
+      "net": "NFC_CS_N",
+      "module_pad": 37,
+      "gpio": 43,
+      "constant": "nfcCs"
+    },
+    {
+      "net": "BUZZ_CMD",
+      "module_pad": 38,
+      "gpio": 2,
+      "constant": "buzzer"
+    },
+    {
+      "net": "LOCK_CMD",
+      "module_pad": 39,
+      "gpio": 1,
+      "constant": "lock"
+    }
+  ]
+}

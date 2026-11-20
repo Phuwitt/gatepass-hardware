@@ -1,0 +1,7 @@
+{
+  "firmware": "gatepass-r1-1.0.0",
+  "sha256": {
+    "bin/GATEPASS_R1_1.0.0_BENCH_FULL.bin": "71b12ee0c8e4694b57a136381b10a903a0877cb5d827fd85bfa9d4d83d432ef6",
+    "bin/GATEPASS_R1_1.0.0_CONTROL_FULL.bin": "247724fe2f226ef8d77ff23cee186f4b37443e2882b0195eeeca829e20deab7e"
+  }
+}
